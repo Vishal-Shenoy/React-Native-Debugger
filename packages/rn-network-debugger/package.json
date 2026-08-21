@@ -1,0 +1,32 @@
+{
+  "name": "rn-network-debugger-console",
+  "version": "1.0.15",
+  "description": "Zero-native network debugging for React Native",
+  "main": "src/index.js",
+  "bin": {
+    "rn-network-debugger-console": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "server",
+    "bin",
+    "dashboard"
+  ],
+  "scripts": {
+    "start-dashboard": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^8.19.0"
+  },
+  "keywords": [
+    "react-native",
+    "network",
+    "debugger",
+    "fetch",
+    "xhr",
+    "inspect"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
